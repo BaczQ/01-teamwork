@@ -1,0 +1,46 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+
+
+.page {
+  max-width: 100%;
+  min-width: 320px;
+  font-family: Roboto;          /*Со шрифтом мог не угадать, буду дополнительно искать другие шрифты*/
+}
+
+.header {
+  max-width: 2568px;
+  padding: 118px 156px 200px;
+  box-sizing: border-box;
+}
+
+.header_position_center {
+  margin: 0 auto;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__menu-item {
+  margin: 0 84px 0 0;
+}
+
+.header__menu-item:last-child {
+  margin: 0;
+  }
+
+.header__menu-link {
+  color: inherit;
+  text-decoration: none;
+}
