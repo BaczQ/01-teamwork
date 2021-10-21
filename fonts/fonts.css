@@ -1,10 +1,14 @@
 @font-face {
-  src: url(./Roboto-Regular.ttf);
-  font-family: "Roboto";
+  src: url(./Rostelecom_Basis_Regular.woff2) format("woff2"),
+       url(./Rostelecom_Basis_Regular.woff) format("woff"),
+       url(./Rostelecom_Basis_Regular.ttf) format("truetype");
+  font-family: "Rostelecom Basis";
 }
 
 @font-face {
-    src: url(./Roboto-Bold.ttf);
-    font-family: "Roboto";
-    font-weight: 700;
+  src: url(./Rostelecom_Basis_Bold.woff2) format("woff2"),
+       url(./Rostelecom_Basis_Bold.woff) format("woff"),
+       url(./Rostelecom_Basis_Bold.ttf) format("truetype");
+  font-family: "Rostelecom Basis";
+  font-weight: 700;
   }
