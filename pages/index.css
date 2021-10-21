@@ -227,9 +227,7 @@ body {
   background-color: blue;
   align-self: center;
   align-items: center;
-
 }
-
 
 .where-travel__image {
   display: block;
@@ -282,9 +280,6 @@ body {
     font-size: 20px;
     line-height: 24px;
   }
-
-
-
 }
 
 @media screen and (max-width: 320px) {
