@@ -1,0 +1,23 @@
+.header {
+  max-width: 1440px;
+  padding: 55px 76px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 23px 76px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 20px 45px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+.where-travel__image {
+  display: block;
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  left: 3%;
+  right: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .where-travel__image {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 400px;
+    left: 0%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .where-travel__image {
+    max-height: 70%;
+  }
+}

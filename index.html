@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,68 +8,46 @@
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="shortcut icon" type="image/png" href="./favicon.ico" />
 </head>
-
 <body>
-
     <div class="page">
-
         <header class="header header_position_center">
-            <nav class="header__navigation">
+          <nav class="header__navigation">
                 <ul class="header__menu">
-                    <li class="header__menu-item"><a class="header__menu-link" href="#">Мечты</a></li>
-                    <li class="header__menu-item"><a class="header__menu-link" href="#">Ожидание</a></li>
-                    <li class="header__menu-item"><a class="header__menu-link" href="#">Реальность</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" target="_blank" href="#1">Мечты</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" target="_blank" href="https://topcafe.su/puteshestviya/krasivye-mesta-rossii.html">Ожидание</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" target="_blank" href="#2">Реальность</a></li>
                 </ul>
-                <div class="header__feedback">
-                    <!--Не уверен, правильно ли выносить эту кнопку из списка. Но мне кажется, по другому отступ такой флексом не сделать.-->
-                    <a href="#" class="header__menu-link">Пожаловаться</a>
-                </div>
+                
+                <a target="_blank" href="https://rkn.gov.ru/treatments/ask-question/" class="header__menu-link">Пожаловаться</a>
+                
             </nav>
-            <div class="header__burger">
-              <span></span>
-            </div>
         </header>
 
 
         <nav class="mobile-menu">
             <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
-            <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
+            <label for="checkbox" class="mobile-menu__btn trambling-link">☰</label>
             <div class="mobile-menu__container">
             <ul class="mobile-menu__list">
-                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Мечты</a></li>
-                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Ожидание</a></li>
-                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Реальность</a></li>
-                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Пожаловаться</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" target="_blank" href="#1">Мечты</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" target="_blank" href="https://topcafe.su/puteshestviya/krasivye-mesta-rossii.html">Ожидание</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" target="_blank" href="#2">Реальность</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" target="_blank" href="https://rkn.gov.ru/treatments/ask-question/">Пожаловаться</a></li>
             </ul>
             </div>
         </nav>
-
-
-
         <main>
-
-     
-
             <section class="where-travel where-travel_position_center">
                 <div class="where-travel__text-container">
-
-                    <p class="where-travel__subtitle">Куда я поеду</p>
+                    <p class="where-travel__subtitle" id="1">Куда я поеду</p>
                     <h1 class="where-travel__title">Куда я поеду сразу, как можно будет куда-то поехать</h1>
                 </div>
                 <div class="where-travel__img-container">
                     <img class="where-travel__image" src="./images/intro-image.jpeg" alt="Парящий самолет в облаках">
                 </div>
             </section>
-
-
-
-
-
-
-
-            
-            <section class="travel-places">
-                <div class="travel-places__place">
+            <section class="travel-places" aria-label="Места для путешествий">
+                <article class="travel-places__place">
                     <img class="travel-places__img" src="./images/places-forest.jpeg" alt="Водопад в густом лесу">
                     <div class="travel-places__article">
                         <h2 class="travel-places__title">Поеду в лес</h2>
@@ -84,11 +61,10 @@
                                 насаждение. Леса занимают около трети площади суши.</p>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <div class="travel-places__place">
+                <article class="travel-places__place">
                     <div class="travel-places__article">
-
                         <h2 class="travel-places__title">Поеду в горы</h2>
                         <div class="travel-places__text">
                             
@@ -97,13 +73,10 @@
                                 земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах
                                 берёт своё начало большинство рек Земли.</p>
                         </div>
-
                     </div>
                     <img class="travel-places__img" src="./images/places-mountains.jpeg" alt="Заснеженные горы">
-
-                </div>
-
-                <div class="travel-places__place">
+                </article>
+                <article class="travel-places__place">
                     <img class="travel-places__img" src="./images/places-black-sea.jpeg" alt="Бескрайняя гладь моря">
                     <div class="travel-places__article">
 
@@ -118,10 +91,8 @@
                                 Чёрное-Чёрное море.</p>
                             <p class="travel-places__paragraph">Уеду я.</p>
                         </div>
-
-
                     </div>
-                </div>
+                </article>
             </section>
 
 
@@ -134,7 +105,7 @@
 
             <section class="people people_position_center">
                 <p class="people__subtitle">Люди</p>
-                <h2 class="people__title">Что говорят и говорили люди о путешествиях</h2>
+                <h2 class="people__title" id="2">Что говорят и говорили люди о путешествиях</h2>
                 <ul class="people__views">
                     <li class="people__opinion">
                         <h3 class="people__author">Иван Бунин</h3>
@@ -181,13 +152,9 @@
         </main>
 
         <footer class="footer footer_position_center">
-            <p class="footer__copyright">© 2020</p>
+            <p class="footer__copyright">© Яндекс Практикум 2020</p>
         </footer>
-    </div>
-
-
-    
-    <script src="./script.js"></script>
+      </div>
 </body>
 
 </html>

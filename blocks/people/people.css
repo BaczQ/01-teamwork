@@ -1,0 +1,23 @@
+.people {
+  max-width: 1440px;
+  padding: 154px 0 145px;
+}
+
+@media (max-width: 1205px) {
+  .people {
+    max-width: 1440px;
+    padding: 90px 0 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .people {
+    padding: 50px 0 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .people {
+    padding: 40px 0 30px;
+  }
+}

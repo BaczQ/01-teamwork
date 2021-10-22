@@ -1,0 +1,19 @@
+.mobile-menu {
+  position: fixed;
+  display: none;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 16px;
+  top: 0;
+  background-color: #fecda7;
+  left: 0;
+  right: 0;
+  height: 45px;
+  z-index: 99;
+}
+
+@media (max-width: 420px) {
+  .mobile-menu {
+    display: flex;
+  }
+}

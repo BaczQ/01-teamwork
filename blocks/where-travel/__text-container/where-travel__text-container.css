@@ -1,0 +1,11 @@
+.where-travel__text-container {
+  align-self: center;
+  flex: 1;
+}
+
+@media screen and (max-width: 420px) {
+  .where-travel__text-container {
+    margin: 0 auto;
+    order: 2;
+  }
+}

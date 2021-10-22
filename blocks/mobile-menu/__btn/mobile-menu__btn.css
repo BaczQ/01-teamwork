@@ -1,0 +1,27 @@
+.mobile-menu__btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 30px;
+  cursor: pointer;
+  transition: 1.5s;
+  font-size: 30px;
+}
+
+.mobile-menu__btn:hover{
+  animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+
+@keyframes trambling-animation {
+  0%, 50%, 100% {
+      transform: rotate(0deg);
+  }
+  10%, 30% {
+      transform: rotate(-10deg);
+  }
+  20%, 40% {
+      transform: rotate(10deg);
+  }
+}

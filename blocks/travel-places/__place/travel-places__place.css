@@ -1,0 +1,17 @@
+.travel-places__place {
+  max-height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1440px) {
+  .travel-places__place {
+    min-height: 41.6vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .travel-places__place {
+    flex-direction: column;
+  }
+}

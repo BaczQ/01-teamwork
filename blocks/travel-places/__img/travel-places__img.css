@@ -1,0 +1,32 @@
+.travel-places__img {
+  width: 50%;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1440px) {
+  .travel-places__img {
+    max-height: calc((100vw - 152px) / 1.92);
+  }
+}
+
+@media screen and (max-width: 778px) {
+  .travel-places__img {
+    max-height: 50vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .travel-places__img {
+    width: 94%;
+    min-height: calc(100vw / 1.2 - 152px / 1.2);
+    order: 1;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .travel-places__img {
+    max-height: 83vw;
+  }
+}
