@@ -1,6 +1,6 @@
 .travel-places__img {
   width: 50%;
-  max-height: 600px;
+  height: 600px;
   object-fit: cover;
 }
 
