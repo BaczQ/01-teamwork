@@ -16,6 +16,16 @@
   background-color: aqua;
 }
 
+
+
+
+@media (max-width: 420px) {
+  .header {
+    display: none;
+  }
+}
+
+
 .header_position_center {
   margin: 0 auto;
 }
@@ -55,7 +65,7 @@
 }
 
 .header__burger {
-    display: none;
+  display: none;
 }
 
 
@@ -65,6 +75,23 @@ body {
 }
 
 
+@media (max-width: 1024px) {
+
+  .header {
+    padding: 23px 76px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .header__menu-link {
+    font-size: 12px;
+  }
+
+  .header {
+    padding: 20px 45px;
+  }
+}
 
 
 
@@ -79,6 +106,8 @@ body {
   display: flex;
   background-color: darkorchid;
 }
+
+
 
 .where-travel__text-container {
   background-color: rgb(50, 204, 119);
@@ -160,12 +189,30 @@ body {
 
 
 @media screen and (max-width: 768px) {
+
+
+  .where-travel {
+    padding: 24px 45px;
+
+  }
+
   .where-travel__title {
-    margin-top: 18px;
-    font-size: 20px;
-    line-height: 24px;
+    margin-top: 2.34vw;
+    font-size: 2.9vw;
+    line-height: 3.5vw;
   }
 }
+
+
+@media screen and (max-width: 420px) {
+
+  .where-travel {
+    margin-top: 13vw;
+
+  }
+}
+
+
 
 @media screen and (max-width: 320px) {
 
@@ -175,6 +222,7 @@ body {
     max-width: 100%;
     background-color: darkorchid;
     flex-direction: column;
+    margin-top: 70px;
   }
 }
 
@@ -262,7 +310,7 @@ body {
   .travel-places__paragraph {
     margin-top: 1.805vw;
     margin-bottom: 1.0416vw;
-    }
+  }
 
   .travel-places__place {
     min-height: 41.6vw;
@@ -271,6 +319,8 @@ body {
   .travel-places__img {
     max-height: calc((100vw - 152px) / 1.92);
   }
+
+
 
 }
 
@@ -281,7 +331,7 @@ body {
     background-color: rgb(100, 237, 118);
     font-size: 2.9vw;
     line-height: 3.5vw;
-   
+
   }
 
   .travel-places__paragraph {
@@ -294,29 +344,49 @@ body {
   }
 
   .travel-places__article {
-    
+
     background-color: rgb(226, 43, 113);
     justify-content: space-between;
     padding: 4vw 4.5vw 4.5vw;
     box-sizing: border-box;
-    
+
   }
+
+  .travel-places {
+
+    margin-top: 7.63vw;
+
+  }
+  
 
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
 
-  .travel-places__place {
+  .travel-places {
 
-    flex-direction: column;
+    padding: 0 45px;
 
   }
 
+  .travel-places__paragraph {
+
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: 0.2px;
+    
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .travel-places__place {
+    flex-direction: column;
+  }
 
   .travel-places__title {
     font-size: 20px;
     line-height: 24px;
-   
   }
 
   .travel-places__img {
@@ -331,14 +401,10 @@ body {
     order: 2;
     margin: 0;
     padding: 1vw 0 5vw;
-    
-
   }
-
 }
 
 @media screen and (max-width: 320px) {
-
   .travel-places {
     padding: 0;
     background-color: #fecda7;
@@ -347,7 +413,7 @@ body {
 
   .travel-places__title {
     padding: 0 5vw;
-   
+
   }
 
   .travel-places__text {
@@ -359,13 +425,6 @@ body {
   }
 
 }
-
-
-
-
-
-
-
 
 .place {
   display: grid;
@@ -428,7 +487,6 @@ body {
   margin: 0 0 0 80px;
 }
 
-
 .people {
   max-width: 1440px;
   padding: 154px 0 145px;
@@ -462,23 +520,14 @@ body {
   padding: 0 50px 0;
   border: 1px solid #000;
   background-color: green;
-
 }
-
-
-
-
 
 .people__opinion {
   list-style-type: none;
   max-width: 268px;
   margin: 30px 70px 0 0;
   background-color: #fecda7;
-
 }
-
-
-
 
 .people__author {
   text-transform: uppercase;
@@ -490,8 +539,6 @@ body {
   margin: 0 0 0 0;
   line-height: 22px;
 }
-
-
 
 
 @media (min-width: 1440px) {
@@ -538,9 +585,6 @@ body {
 
 
 
-
-
-
 @media (max-width: 1205px) {
 
   .people {
@@ -560,8 +604,6 @@ body {
     max-width: 360px;
     margin: 30px 100px 0 0;
   }
-
-
 
   .people__author {
     font-size: 18px;
@@ -603,17 +645,12 @@ body {
   }
 }
 
-@media (max-width: 500px) { 
-  .header__burger {
-    
-  }
-  
-  
-  
-  
+@media (max-width: 500px) {
+
   .people {
     padding: 60px 0 40px;
   }
+
   .people__subtitle {
     margin: 0 auto 20px;
     font-size: 16px;
@@ -644,7 +681,7 @@ body {
   }
 }
 
-@media (max-width: 434px) { 
+@media (max-width: 434px) {
   .people__views {
     max-width: 280px;
   }
@@ -686,7 +723,7 @@ body {
   }
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   .people__views {
     min-height: 320px;
   }
@@ -697,3 +734,129 @@ body {
 
 }
 
+
+
+
+.mobile-menu {
+  position: fixed;
+  display: none;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 16px;
+  top: 0;
+  background-color: #27ae60;
+  left: 0;
+  right: 0;
+  height: 50px;
+  z-index: 9999999;
+}
+
+@media (max-width: 420px) {
+  .mobile-menu {
+    display: flex;
+  }
+}
+
+.mobile-menu__btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 30px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.mobile-menu__icon {
+  display: block;
+  position: relative;
+  background: white;
+  width: 90%;
+  height: 4px;
+  transition: .4s;
+}
+
+.mobile-menu__icon::after,
+.mobile-menu__icon::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: white;
+  width: 100%;
+  height: 4px;
+  transition: .4s;
+}
+
+.mobile-menu__icon::after {
+  top: 8px;
+}
+
+.mobile-menu__icon::before {
+  top: -8px;
+}
+
+.mobile-menu__container {
+  position: fixed;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50px;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 0;
+  opacity: 1;
+  transition: .5s;
+  overflow: hidden;
+  background-color: #27ae60;
+}
+
+.mobile-menu__list {
+  transition: .5s;
+  list-style: none;
+  padding-left: 0;
+  margin-top: -50px;
+}
+
+.mobile-menu__item {
+  font-size: 26px;
+  padding-bottom: 15px;
+}
+
+.mobile-menu__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.mobile-menu__checkbox {
+  display: none;
+}
+
+.mobile-menu__checkbox:checked~.mobile-menu__nav {
+  opacity: 1;
+}
+
+.mobile-menu__checkbox:checked~.mobile-menu__container {
+  height: 100%;
+}
+
+.mobile-menu__checkbox:checked~.mobile-menu__btn .mobile-menu__icon {
+  background: transparent;
+}
+
+.mobile-menu__checkbox:checked~.mobile-menu__btn .mobile-menu__icon::before,
+.mobile-menu__checkbox:checked~.mobile-menu__btn .mobile-menu__icon::after {
+  top: 0;
+}
+
+.mobile-menu__checkbox:checked~.mobile-menu__btn .mobile-menu__icon::after {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.mobile-menu__checkbox:checked~.mobile-menu__btn .mobile-menu__icon::before {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
