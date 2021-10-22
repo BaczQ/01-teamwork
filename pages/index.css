@@ -7,7 +7,6 @@
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu-item/header__menu-item.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
-@import url(../blocks/header/__feedback/header__complaint.css);
 @import url(../blocks/mobile-menu/mobile-menu.css);
 @import url(../blocks/mobile-menu/__btn/mobile-menu__btn.css);
 @import url(../blocks/mobile-menu/__container/mobile-menu__container.css);
@@ -23,6 +22,7 @@
 @import url(../blocks/where-travel/__img-container/where-travel__img-container.css);
 @import url(../blocks/where-travel/__image/where-travel__image.css);
 @import url(../blocks/travel-places/travel-places.css);
+@import url(../blocks/travel-places/_position/travel-places_position_center.css);
 @import url(../blocks/travel-places/__place/travel-places__place.css);
 @import url(../blocks/travel-places/__img/travel-places__img.css);
 @import url(../blocks/travel-places/__article/travel-places__article.css);
@@ -40,22 +40,3 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/_position/footer_position_center.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-
-
-
-
-  
- 
-  
- 
-
-  
- 
-  
-
-  
-
-  
-
-  
