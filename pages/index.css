@@ -24,6 +24,7 @@
 @import url(../blocks/where-travel/__img-container/where-travel__img-container.css);
 @import url(../blocks/where-travel/__image/where-travel__image.css);
 @import url(../blocks/travel-places/travel-places.css);
+@import url(../blocks/travel-places/_position/travel-places_position_center.css);
 @import url(../blocks/travel-places/__place/travel-places__place.css);
 @import url(../blocks/travel-places/__img/travel-places__img.css);
 @import url(../blocks/travel-places/__article/travel-places__article.css);
