@@ -26,15 +26,13 @@
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .people__views {
     max-width: 600px;
   }
 }
 
-
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 660px) {
   .people__views {
     max-width: 500px;
   }

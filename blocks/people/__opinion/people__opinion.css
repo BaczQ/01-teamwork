@@ -48,14 +48,9 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media (max-width: 660px) {
   .people__opinion {
     max-width: 220px;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .people__opinion {
     margin: 30px auto 0;
   }
 }
