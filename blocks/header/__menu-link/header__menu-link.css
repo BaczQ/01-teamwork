@@ -3,7 +3,6 @@
   text-decoration: none;
   justify-content: space-between;
   font-size: 15px;
-  background-color: tomato;
 }
 
 @media screen and (max-width: 768px) {
