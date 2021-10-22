@@ -9,13 +9,12 @@
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 @import url(../blocks/header/__feedback/header__feedback.css);
 @import url(../blocks/mobile-menu/mobile-menu.css);
-@import url(../blocks/mobile-menu/__checkbox/);
 @import url(../blocks/mobile-menu/__btn/mobile-menu__btn.css);
-@import url(../blocks/mobile-menu/__icon/mobile-menu__icon.css);
 @import url(../blocks/mobile-menu/__container/mobile-menu__container.css);
 @import url(../blocks/mobile-menu/__list/mobile-menu__list.css);
 @import url(../blocks/mobile-menu/__item/mobile-menu__item.css);
 @import url(../blocks/mobile-menu/__link/mobile-menu__link.css);
+@import url(../blocks/mobile-menu/__checkbox/mobile-menu__checkbox.css);
 @import url(../blocks/where-travel/where-travel.css);
 @import url(../blocks/where-travel/_position/where-travel_position_center.css);
 @import url(../blocks/where-travel/__text-container/where-travel__text-container.css);
@@ -41,3 +40,22 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/_position/footer_position_center.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+
+
+
+
+  
+ 
+  
+ 
+
+  
+ 
+  
+
+  
+
+  
+
+  

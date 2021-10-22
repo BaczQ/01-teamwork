@@ -1,4 +1,9 @@
 .mobile-menu__link {
   text-decoration: none;
-  color: #fff;
+  color: black;
+}
+
+.mobile-menu__link:hover {
+  text-decoration: underline;
+  color: white;
 }
