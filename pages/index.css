@@ -75,13 +75,21 @@ body {
 }
 
 
+@media (max-width: 1024px) {
+
+  .header {
+    padding: 23px 76px;
+  }
+}
+
+
 @media (max-width: 768px) {
   .header__menu-link {
     font-size: 12px;
   }
 
   .header {
-    padding: 30px 45px;
+    padding: 20px 45px;
   }
 }
 
