@@ -1,0 +1,28 @@
+.travel-places__text {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .travel-places__text {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 947px) {
+  .travel-places__text {
+    min-height: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .travel-places__text {
+    min-height: 150px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .travel-places__text {
+    padding: 0 5vw;
+  }
+}

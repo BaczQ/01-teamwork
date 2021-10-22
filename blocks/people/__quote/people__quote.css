@@ -1,0 +1,25 @@
+.people__quote {
+  margin: 0 0 0 0;
+  line-height: 22px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+@media (max-width: 1205px) {
+  .people__quote {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .people__quote {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .people__quote {
+    font-size: 14px;
+  }
+}

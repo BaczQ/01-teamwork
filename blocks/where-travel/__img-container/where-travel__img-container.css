@@ -1,0 +1,12 @@
+.where-travel__img-container {
+  align-self: center;
+  align-items: center;
+  flex: 1;
+}
+
+@media screen and (max-width: 420px) {
+  .where-travel__img-container {
+    max-width: 94%;
+    order: 1;
+  }
+}

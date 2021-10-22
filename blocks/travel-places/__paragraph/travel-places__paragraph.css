@@ -1,0 +1,41 @@
+.travel-places__paragraph {
+  margin: 26px 0 15px;
+  padding: 0;
+  max-width: 425px;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 0.35px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1440px) {
+  .travel-places__paragraph {
+    margin-top: 1.805vw;
+    margin-bottom: 1.0416vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .travel-places__paragraph {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.27px;
+    margin-top: 2vw;
+    margin-bottom: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .travel-places__paragraph {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.2px;
+    margin: 1vw 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .travel-places__paragraph {
+    margin: 1vw 3vw;
+  }
+}
